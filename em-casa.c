@@ -61,3 +61,11 @@ char *longestNiceSubstring( char *s ) {
 
     return ns;
 }
+
+int main() {
+    char test[8] = "YazaAay";
+
+    longestNiceSubstring( test );
+
+    return 0;
+}
