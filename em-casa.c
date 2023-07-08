@@ -44,7 +44,7 @@ char *longestNiceSubstring( char *s ) {
                 }
             }
 
-            if (isNice && ( j - i + 1 ) > maxLen) {
+            if ( isNice && ( j - i + 1 ) > maxLen ) {
                 maxLen = j - i + 1;
                 free( ns );
                 ns = ( char * )malloc( sizeof( char ) * ( maxLen + 1 ) );
